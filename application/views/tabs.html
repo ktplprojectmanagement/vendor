@@ -1,0 +1,170 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script>
+jQuery(document).ready(function() {
+    jQuery('.tabs .tab-links a').on('click', function(e)  {
+
+        var currentAttrValue = jQuery(this).attr('href');
+ 
+        // Show/Hide Tabs
+        jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+ 
+        // Change/remove current tab to active
+        jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+ 
+        e.preventDefault();
+    });
+});
+</script>
+<style>
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+
+</style>
+<div class="tabs">
+    <ul class="tab-links">
+        <li class="active" id="tab1_menu"><a href="#tab1">Tab #1</a></li>
+        <li id="tab2_menu"><a href="#tab2">Tab #2</a></li>
+        <li id="tab3_menu"><a href="#tab3">Tab #3</a></li>
+        <li id="tab4_menu"><a href="#tab4">Tab #4</a></li>
+    </ul>
+ 
+    <div class="tab-content">
+        <div id="tab1" class="tab active">
+            <p>Tab #1 content goes here!</p>
+            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+        <input type="button" class="btn btn-info" value="Next" id="tab_1"> 
+        </div>
+ 
+        <div id="tab2" class="tab">
+            <p>Tab #2 content goes here!</p>
+            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+            <input type="button" class="btn btn-info" value="Next" id="tab_2"> 
+            <input type="button" class="btn btn-info" value="Back" id="back_tab_1"> 
+        </div>
+ 
+        <div id="tab3" class="tab">
+            <p>Tab #3 content goes here!</p>
+            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
+            <input type="button" class="btn btn-info" value="Next" id="tab_3"> 
+            <input type="button" class="btn btn-info" value="Back" id="back_tab_2"> 
+        </div>
+ 
+        <div id="tab4" class="tab">
+            <p>Tab #4 content goes here!</p>
+            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+            
+            <input type="button" class="btn btn-info" value="Back" id="back_tab_3"> 
+        </div>
+    </div>
+</div>
+<script>
+$('#tab_1').click(function(){
+$('#tab1').removeClass("active");
+$('#tab2').addClass("active");
+$('#tab1_menu').removeClass("active");
+$('#tab2_menu').addClass("active");
+});
+
+
+</script>
+
+
+<script type="text/javascript">
+$('#tab_2').click(function(){
+    $('#tab2').removeClass("active");
+    $('#tab3').addClass("active");
+    $('#tab2_menu').removeClass("active");
+    $('#tab3_menu').addClass("active");
+});
+
+</script>
+<script type="text/javascript">
+$('#back_tab_1').click(function(){
+    $('#tab2').removeClass("active");
+    $('#tab1').addClass("active");
+    $('#tab1_menu').addClass("active");
+    $('#tab2_menu').removeClass("active");
+});
+</script>
+
+
+<script type="text/javascript">
+$('#tab_3').click(function(){
+    $('#tab3').removeClass("active");
+    $('#tab4').addClass("active");
+    $('#tab3_menu').removeClass("active");
+    $('#tab4_menu').addClass("active");
+});
+
+</script>
+<script type="text/javascript">
+$('#back_tab_2').click(function(){
+    $('#tab3').removeClass("active");
+    $('#tab2').addClass("active");
+    $('#tab2_menu').addClass("active");
+    $('#tab3_menu').removeClass("active");
+});
+</script>
+
+<script type="text/javascript">
+$('#back_tab_3').click(function(){
+    $('#tab4').removeClass("active");
+    $('#tab3').addClass("active");
+    $('#tab3_menu').addClass("active");
+    $('#tab4_menu').removeClass("active");
+});
+</script>

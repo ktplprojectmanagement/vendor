@@ -1,0 +1,10 @@
+[22-Feb-2017 12:17:32 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/kritvpbp/public_html/vendor/proof/declaration/4734640049ca5e02e0e87852dc34d576.php on line 270
+[22-Feb-2017 12:17:32 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/kritvpbp/public_html/vendor/proof/declaration/4734640049ca5e02e0e87852dc34d576.php on line 285
+[22-Feb-2017 12:17:32 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/kritvpbp/public_html/vendor/proof/declaration/4734640049ca5e02e0e87852dc34d576.php on line 336
+[22-Feb-2017 12:17:32 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/kritvpbp/public_html/vendor/proof/declaration/4734640049ca5e02e0e87852dc34d576.php on line 350
+[22-Feb-2017 12:17:32 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/kritvpbp/public_html/vendor/proof/declaration/4734640049ca5e02e0e87852dc34d576.php on line 423
+[22-Feb-2017 12:17:32 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/kritvpbp/public_html/vendor/proof/declaration/4734640049ca5e02e0e87852dc34d576.php on line 436
+[22-Feb-2017 12:17:32 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/kritvpbp/public_html/vendor/proof/declaration/4734640049ca5e02e0e87852dc34d576.php on line 449
+[22-Feb-2017 12:17:32 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/kritvpbp/public_html/vendor/proof/declaration/4734640049ca5e02e0e87852dc34d576.php on line 462
+[22-Feb-2017 12:17:32 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/kritvpbp/public_html/vendor/proof/declaration/4734640049ca5e02e0e87852dc34d576.php on line 599
+[22-Feb-2017 12:17:32 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/kritvpbp/public_html/vendor/proof/declaration/4734640049ca5e02e0e87852dc34d576.php on line 745

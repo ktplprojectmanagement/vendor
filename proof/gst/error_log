@@ -1,0 +1,2 @@
+[23-Feb-2017 03:40:25 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/kritvpbp/public_html/vendor/proof/gst/36f52b7835143eb2af5c4bf0268953ee.php on line 306
+[24-Feb-2017 10:35:49 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/kritvpbp/public_html/vendor/proof/gst/9f48fd17c0c49a8b7dd052c040e6cee2.php on line 306
