@@ -310,7 +310,7 @@ div.bhoechie-tab-menu div.list-group > a.active, div.bhoechie-tab-menu div.list-
         }
 
 </style>
- <a href="http://kritva.in/customer/index.php/Admindashboard" style="float: right;"><input type="button" value="Back"></a>
+ <a href="http://52.172.210.251/customer/index.php/Admindashboard" style="float: right;"><input type="button" value="Back"></a>
 <div id="cancl_form" class="modal fade" tabindex="-1" data-backdrop="del_goal" data-keyboard="false">
                         <div class="modal-dialog" style="width: 73%;">
                             <div class="modal-content">

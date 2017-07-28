@@ -402,7 +402,7 @@ else
 {
 ?>
 <td>
-                                                                <form method="post" target="_new" action="http://kritva.in/vendor/index.php/Vendordata">
+                                                                <form method="post" target="_new" action="http://52.172.210.251/vendor/index.php/Vendordata">
                                                                     <input type="text" name="vendor_id" style="display: none" value="<?php  if(isset($vendor_updated_data_aprv_list['0']['Vendor_id'])) { print_r($vendor_updated_data_aprv_list['0']['Vendor_id']); } ?>">
                                                                     <input type="submit" name="submit"  value="Check">
                                                                 </form>
@@ -600,7 +600,7 @@ else
 {
 ?>
 <td>
-                                                                <form method="post" target="_new" action="http://kritva.in/vendor/index.php/Vendordata">
+                                                                <form method="post" target="_new" action="http://52.172.210.251/vendor/index.php/Vendordata">
                                                                     <input type="text" name="vendor_id" style="display: none" value="<?php  if(isset($customer_pending_data_get['0']['Vendor_id'])) { print_r($customer_pending_data_get['0']['Vendor_id']); } ?>">
                                                                     <input type="submit" name="submit"  value="Check">
                                                                 </form>
@@ -788,7 +788,7 @@ else
 {
 ?>
 <td>
-                                                                <form method="post" target="_new" action="http://kritva.in/vendor/index.php/Vendordata">
+                                                                <form method="post" target="_new" action="http://52.172.210.251/vendor/index.php/Vendordata">
                                                                     <input type="text" name="vendor_id" style="display: none" value="<?php if(isset($vendor_updated_data_list['0']['Vendor_id'])) { print_r($vendor_updated_data_list['0']['Vendor_id']); }  ?>">
                                                                     <input type="submit" name="submit"  value="Check">
                                                                 </form>
@@ -1420,7 +1420,7 @@ else
 {
 ?>
 <td>
-                                                                <form method="post" target="_new" action="http://kritva.in/vendor/index.php/Vendordata">
+                                                                <form method="post" target="_new" action="http://52.172.210.251/vendor/index.php/Vendordata">
                                                                     <input type="text" name="vendor_id" style="display: none" value="<?php if(isset($vendor_updated_data_rej_list['0']['Vendor_id'])) { print_r($vendor_updated_data_rej_list['0']['Vendor_id']); }  ?>">
                                                                     <input type="submit" name="submit"  value="Check">
                                                                 </form>
@@ -1545,7 +1545,7 @@ else
 {
 ?>
 <td>
-                                                                <form method="post" target="_new" action="http://kritva.in/vendor/index.php/Vendordata">
+                                                                <form method="post" target="_new" action="http://52.172.210.251/vendor/index.php/Vendordata">
                                                                     <input type="text" name="vendor_id" style="display: none" value="<?php if(isset($vendor_updated_data_rej_list1['0']['Vendor_id'])) { print_r($vendor_updated_data_rej_list1['0']['Vendor_id']); }  ?>">
                                                                     <input type="submit" name="submit"  value="Check">
                                                                 </form>

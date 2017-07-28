@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-   <link rel="stylesheet" href="http://kritvainvestments.com/pmsuser/css/email.css">
+<!--    <link rel="stylesheet" href="http://kritvainvestments.com/pmsuser/css/email.css"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <style type="text/css">
@@ -33,7 +33,7 @@ label{
 
 <div class="container">
   <div class="logo">
-<img src="http://vvf.kritva.in/images/Logo.png" alt="VVF" style="max-width: 8%;">
+<img src="http://52.172.210.251/images/Logo.png" alt="VVF" style="max-width: 8%;">
 <hr >
   </div>
   Dear support team,<br>
@@ -47,7 +47,7 @@ if (isset($msg)) {
 <div>
 </div>
 </p>
-2016 &#169; Kritva Technology Pvt. Ltd.
+<!-- 2016 &#169; Kritva Technology Pvt. Ltd. -->
 </div>
 </p>
 </div>

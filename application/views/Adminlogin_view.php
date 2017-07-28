@@ -7,16 +7,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<!-- CSS -->
-	<link rel="stylesheet" href="http://kritvainvestments.com/vendor/assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="http://kritvainvestments.com/vendor/assets/css/vendor/icon-sets.css">
-	<link rel="stylesheet" href="http://kritvainvestments.com/vendor/assets/css/main.min.css">
+	<link rel="stylesheet" href="http://52.172.210.251/vendor/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://52.172.210.251/vendor/assets/css/vendor/icon-sets.css">
+	<link rel="stylesheet" href="http://52.172.210.251/vendor/assets/css/main.min.css">
 	<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
-	<link rel="stylesheet" href="http://kritvainvestments.com/vendor/assets/css/demo.css">
+	<link rel="stylesheet" href="http://52.172.210.251/vendor/assets/css/demo.css">
 	<!-- GOOGLE FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
 	<!-- ICONS -->
-	<link rel="apple-touch-icon" sizes="76x76" href="http://kritvainvestments.com/vendor/assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="http://vvf.kritva.in/images/Logo.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="http://52.172.210.251/vendor/assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="http://52.172.210.251/images/Logo.png">
 </head>
 
 <body>
@@ -54,7 +54,7 @@
 				<div class="auth-box ">
 					<div class="left">
 						<div class="content">
-							<div class="logo text-center"><img src="http://vvf.kritva.in/images/Logo.png" alt="vendor portal" width="171px;"></div>
+							<div class="logo text-center"><img src="http://52.172.210.251/images/Logo.png" alt="vendor portal" width="171px;"></div>
 							<form class="form-auth-small" action="index.html">
 								<div class="form-group">
 									<label for="signup-email" class="control-label sr-only">Email</label>
@@ -66,7 +66,7 @@
 								</div>
 								
 								 <input class="btn btn-primary btn-lg btn-block submit" type="button" name="login" id="complete" value="Log In"/>
-								<!-- <a href="http://kritvainvestments.com/vendor/index.php/Admindashboard"><button type="button" class="btn btn-primary btn-lg btn-block">LOGIN</button></a> -->
+								<!-- <a href="http://52.172.210.251/vendor/index.php/Admindashboard"><button type="button" class="btn btn-primary btn-lg btn-block">LOGIN</button></a> -->
 								<div class="bottom">
 									
 									<label class="fancy-checkbox element-left">
