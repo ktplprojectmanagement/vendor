@@ -22,7 +22,7 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://kritva.in/vendor/';
+$config['base_url'] = 'http://52.172.210.251/vendor/';
 
 /*
 |--------------------------------------------------------------------------
