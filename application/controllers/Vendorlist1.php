@@ -172,7 +172,7 @@ $where = 'where 1';
 				$data['user_details'] = $this->common_model->fetch_data('vendor_details',$where,$row);
 				//print_r($data['user_details']);die();
 				$config = Array(
-		           'protocol' => 'POP',
+		           'protocol' => 'smtp',
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 995,
 		            'smtp_user' => 'partners@vvfltd.com',
@@ -243,7 +243,7 @@ function tech_send_mails()
 				$data['user_details'] = $this->common_model->fetch_data('vendor_details',$where,$row);
 				//print_r($data['user_details']);die();
 				$config = Array(
-		           'protocol' => 'POP',
+		           'protocol' => 'smtp',
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 995,
 		            'smtp_user' => 'partners@vvfltd.com',
@@ -314,7 +314,7 @@ function send_mails_pending()
 				$data['user_details'] = $this->common_model->fetch_data('vendor_details',$where,$row);
 				//print_r($data['user_details']);die();
 				$config = Array(
-		           'protocol' => 'POP',
+		           'protocol' => 'smtp',
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 995,
 		            'smtp_user' => 'partners@vvfltd.com',

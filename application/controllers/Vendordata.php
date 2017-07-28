@@ -93,7 +93,7 @@ $query = 'where Vendor_id = ?';
 				$data['user_details_reject'] = $this->common_model->save_data_record($table_name,$field_list,$qry,$data_field['data']);
 			
 			$config = Array(       
-		            'protocol' => 'IMAP',
+		            'protocol' => 'smtp',
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 993,
 		            'smtp_user' => 'partners@vvfltd.com',
@@ -171,7 +171,7 @@ $query = 'where Vendor_id = ?';
 		if($this->db->affected_rows()>0)
 		{
 			$config = Array(       
-		            'protocol' => 'IMAP',
+		            'protocol' => 'smtp',
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 993,
 		            'smtp_user' => 'partners@vvfltd.com',
@@ -212,7 +212,7 @@ $this->email->bcc($list);
 function send_approval()
 {
 $config = Array(       
-		            'protocol' => 'IMAP',
+		            'protocol' => 'smtp',
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 993,
 		            'smtp_user' => 'partners@vvfltd.com',

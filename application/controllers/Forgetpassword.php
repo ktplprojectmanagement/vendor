@@ -24,7 +24,7 @@ class Forgetpassword extends CI_Controller {
 	function send_mail()
 	{
 		$config = Array(
-		            'protocol' => 'POP',
+		            'protocol' => 'smtp',
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 995,
 		            'smtp_user' => 'partners@vvfltd.com',
