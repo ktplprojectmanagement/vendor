@@ -176,7 +176,7 @@ $where = 'where 1';
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 995,
 		            'smtp_user' => 'partners@vvfltd.com',
-		            'smtp_pass' => 'vvfltd@123',
+		            'smtp_pass' => 'Dream@21',
 'newline'  => "\r\n",
 'crlf' => "\r\n",
 'smtp_crypto' => 'ssl'
@@ -247,7 +247,7 @@ function tech_send_mails()
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 995,
 		            'smtp_user' => 'partners@vvfltd.com',
-		            'smtp_pass' => 'vvfltd@123',
+		            'smtp_pass' => 'Dream@21',
 'newline'  => "\r\n",
 'crlf' => "\r\n",
 'smtp_crypto' => 'ssl'
@@ -318,7 +318,7 @@ function send_mails_pending()
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 995,
 		            'smtp_user' => 'partners@vvfltd.com',
-		            'smtp_pass' => 'vvfltd@123',
+		            'smtp_pass' => 'Dream@21',
 'newline'  => "\r\n",
 'crlf' => "\r\n",
 'smtp_crypto' => 'ssl'

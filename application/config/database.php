@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = 'p@$$w0rD789';
+$db['default']['hostname'] = '52.172.200.192';
+$db['default']['username'] = 'vvf_vms';
+$db['default']['password'] = 'vvf_vms@123';
 $db['default']['database'] = 'vvf_vendor_data_management';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';

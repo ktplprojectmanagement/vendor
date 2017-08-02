@@ -97,7 +97,7 @@ $query = 'where Vendor_id = ?';
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 993,
 		            'smtp_user' => 'partners@vvfltd.com',
-		            'smtp_pass' => 'vvfltd@123',
+		            'smtp_pass' => 'Dream@21',
 'newline'  => "\r\n",
 'crlf' => "\r\n",
 'smtp_crypto' => 'ssl'
@@ -175,7 +175,7 @@ $query = 'where Vendor_id = ?';
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 993,
 		            'smtp_user' => 'partners@vvfltd.com',
-		            'smtp_pass' => 'vvfltd@123',
+		            'smtp_pass' => 'Dream@21',
 'newline'  => "\r\n",
 'crlf' => "\r\n",
 'smtp_crypto' => 'ssl'
@@ -207,19 +207,51 @@ $this->email->bcc($list);
 		}
 	}
 
+function mailme()
+{
+	$config = Array(       
+		            'protocol' => 'smtp',
+		            'smtp_host' => 'smtp.office365.com',
+		            'smtp_port' => 587,
+		            'smtp_user' => 'partners@vvfltd.com',
+		            'smtp_pass' => 'Dream@21',
+'newline'  => "\r\n",
+'crlf' => "\r\n",
+'smtp_crypto' => 'tls'
+		        );
 
+		        $this->load->library('email', $config);
+		        $this->email->set_newline("\r\n");
+		    $this->email->set_mailtype("html");  
+		       $this->email->from('partners@vvfltd.com', 'VVF GST Team');	
+			    $this->email->to('demo.appraisel@gmail.com'); 
+
+			    $this->email->subject('We have received your details'); // replace it with relevant subject
+             
+		        //$body = $this->load->view('thank_you.php',$data2,TRUE);
+		        $this->email->message("gfhgfgh"); 
+		        if($this->email->send())
+		        {
+		        	echo "sent";
+		        }
+		        else
+		        {
+		        	echo "not sent";
+		        }
+		       // $this->email->send();
+}
 
 function send_approval()
 {
 $config = Array(       
 		            'protocol' => 'smtp',
-		            'smtp_host' => 'outlook.office365.com',
-		            'smtp_port' => 993,
+		            'smtp_host' => 'smtp.office365.com',
+		            'smtp_port' => 587,
 		            'smtp_user' => 'partners@vvfltd.com',
-		            'smtp_pass' => 'vvfltd@123',
+		            'smtp_pass' => 'Dream@21',
 'newline'  => "\r\n",
 'crlf' => "\r\n",
-'smtp_crypto' => 'ssl'
+'smtp_crypto' => 'tls'
 		        );
 
 $where = 'where Vendor_id = ?';

@@ -28,7 +28,7 @@ class Forgetpassword extends CI_Controller {
 		            'smtp_host' => 'outlook.office365.com',
 		            'smtp_port' => 995,
 		            'smtp_user' => 'partners@vvfltd.com',
-		            'smtp_pass' => 'vvfltd@123',
+		            'smtp_pass' => 'Dream@21',
 'newline'  => "\r\n",
 'crlf' => "\r\n",
 'smtp_crypto' => 'ssl'
