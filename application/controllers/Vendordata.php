@@ -213,8 +213,8 @@ function mailme()
 		            'protocol' => 'smtp',
 		            'smtp_host' => 'smtp.office365.com',
 		            'smtp_port' => 587,
-		            'smtp_user' => 'partners@vvfltd.com',
-		            'smtp_pass' => 'Dream@21',
+		            'smtp_user' => 'vvf.pms@vvfltd.com',
+		            'smtp_pass' => 'Dream@123',
 'newline'  => "\r\n",
 'crlf' => "\r\n",
 'smtp_crypto' => 'tls'
@@ -223,7 +223,7 @@ function mailme()
 		        $this->load->library('email', $config);
 		        $this->email->set_newline("\r\n");
 		    $this->email->set_mailtype("html");  
-		       $this->email->from('partners@vvfltd.com', 'VVF GST Team');	
+		       $this->email->from('vvf.pms@vvfltd.com', 'VVF GST Team');	
 			    $this->email->to('demo.appraisel@gmail.com'); 
 
 			    $this->email->subject('We have received your details'); // replace it with relevant subject
